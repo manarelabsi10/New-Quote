@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./../image/798547d10f6c98b1c6c736cdd0585f38.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+section{
+    width: 80%;
+}
+section .container{
+    border: 5px solid #987070;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 15px 25px #a37b7b;
+}
+section .container h1{
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "Sour Gummy", sans-serif;
+    color: #987070;
+}
+section .container p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #987070;
+}
+section .container button{ 
+    padding: 12px;
+    background-color: #795757;
+    color: #f5dae1;
+    border: 2px solid #f5dae1;
+    text-align: center; 
+    font-size: 20px; 
+    font-weight: 700; 
+    font-family: "Sour Gummy", sans-serif;
+}
+section .container button:hover{
+    background-color:#f5dae1;
+    color: #795757;
+    border: 2px solid #795757;
+}
