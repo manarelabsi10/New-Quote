@@ -23,7 +23,7 @@ var quotes = [
 
 var quote = document.getElementById("quote");
 var writer = document.getElementById("writer");
-var btn = document.querySelector("#Qbtn");
+var btn = document.getElementById("Qbtn");
 
 btn.addEventListener("click" , function newQuote(){
     var random = Math.floor(Math.random() * quotes.length);
